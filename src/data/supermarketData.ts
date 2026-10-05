@@ -1,3 +1,9 @@
+import heroProduceImg from '../assets/images/supermarket_hero_produce_1791195683955.jpg';
+import alphonsoMangoesImg from '../assets/images/product_alphonso_mangoes_1791195704140.jpg';
+import basmatiRiceImg from '../assets/images/product_basmati_rice_1791195718045.jpg';
+import organicGheeImg from '../assets/images/product_organic_ghee_1791195731597.jpg';
+import artisanBakeryImg from '../assets/images/product_artisan_bakery_1791195744981.jpg';
+
 export interface ProductVariant {
   id: string;
   label: string;
@@ -33,7 +39,7 @@ export interface StoreHub {
   storeAddress: string;
 }
 
-export const HERO_PRODUCE_IMAGE = '/src/assets/images/supermarket_hero_produce_1791195683955.jpg';
+export const HERO_PRODUCE_IMAGE = heroProduceImg;
 
 export const STORE_HUBS: StoreHub[] = [
   {
@@ -78,7 +84,7 @@ export const SUPERMARKET_PRODUCTS: SupermarketProduct[] = [
     brand: 'Reliance Fresh Select',
     category: 'Fresh Produce',
     origin: 'Ratnagiri Orchards, Maharashtra',
-    image: '/src/assets/images/product_alphonso_mangoes_1791195704140.jpg',
+    image: alphonsoMangoesImg,
     availability: 'Harvest Batch',
     rating: '4.9',
     reviewsCount: 418,
@@ -111,7 +117,7 @@ export const SUPERMARKET_PRODUCTS: SupermarketProduct[] = [
     brand: 'Good Life Reserve',
     category: 'Staples & Grains',
     origin: 'Dehradun Foothills, Uttarakhand',
-    image: '/src/assets/images/product_basmati_rice_1791195718045.jpg',
+    image: basmatiRiceImg,
     availability: 'In Stock',
     rating: '4.8',
     reviewsCount: 892,
@@ -144,7 +150,7 @@ export const SUPERMARKET_PRODUCTS: SupermarketProduct[] = [
     brand: 'Reliance Dairy Life Reserve',
     category: 'Dairy & Ghee',
     origin: 'Kathiawar Pastures, Gujarat',
-    image: '/src/assets/images/product_organic_ghee_1791195731597.jpg',
+    image: organicGheeImg,
     availability: 'In Stock',
     rating: '4.9',
     reviewsCount: 634,
@@ -177,7 +183,7 @@ export const SUPERMARKET_PRODUCTS: SupermarketProduct[] = [
     brand: 'Smart Bazaar Bakehouse',
     category: 'Artisan Bakery',
     origin: 'In-Store Stone Deck Oven',
-    image: '/src/assets/images/product_artisan_bakery_1791195744981.jpg',
+    image: artisanBakeryImg,
     availability: 'Freshly Baked',
     rating: '4.8',
     reviewsCount: 312,
@@ -210,7 +216,7 @@ export const SUPERMARKET_PRODUCTS: SupermarketProduct[] = [
     brand: 'Reliance Fresh Select',
     category: 'Fresh Produce',
     origin: 'Talegaon Climate-Controlled Farms',
-    image: '/src/assets/images/supermarket_hero_produce_1791195683955.jpg',
+    image: heroProduceImg,
     availability: 'Harvest Batch',
     rating: '4.9',
     reviewsCount: 520,
@@ -243,7 +249,7 @@ export const SUPERMARKET_PRODUCTS: SupermarketProduct[] = [
     brand: 'Good Life Reserve',
     category: 'Staples & Grains',
     origin: 'junagadh & Alwar Cooperative Mills',
-    image: '/src/assets/images/product_organic_ghee_1791195731597.jpg',
+    image: organicGheeImg,
     availability: 'In Stock',
     rating: '4.7',
     reviewsCount: 447,
